@@ -39,6 +39,10 @@ $(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 TARGET_WITH_MEDIA_EXT_LEVEL := 4
 
+PRODUCT_PACKAGES += \
+    VimCameraService \
+    VimRestServer
+
 #########################################################################
 #
 #                     media ext
